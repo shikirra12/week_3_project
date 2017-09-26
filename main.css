@@ -18,7 +18,7 @@ h1 {
 	background: linear-gradient(#9dd2ea, #8bceec);
 	border-radius: 3px;
 }
-.row span.clear {
+.row #clear {
 	float: left;
 }
 .row .display {
@@ -37,7 +37,7 @@ h1 {
 .keys {
 	float: left;
 }
-.keys span, .row span.clear {
+.keys span, .row #clear {
 	float: left;
 	position: relative;
 	top: 0;
@@ -61,7 +61,7 @@ h1 {
 	box-shadow: 0px 4px #9da853;
 	color: #888e5f;
 }
-.row span.clear {
+.row #clear {
 	background: #ff9fa8;
 	box-shadow: 0px 4px #ff7c87;
 	color: white;
@@ -77,7 +77,7 @@ h1 {
 	box-shadow: 0px 4px #717a33;
 	color: #ffffff;
 }
-.row span.clear:hover {
+.row #clear:hover {
 	background: #f68991;
 	box-shadow: 0px 4px #d3545d;
 	color: white;
@@ -90,7 +90,7 @@ h1 {
 	box-shadow: 0px 0px #717a33;
 	top: 4px;
 }
-.row span.clear:active {
+.row #clear:active {
 	top: 4px;
 	box-shadow: 0px 0px #d3545d;
 }
